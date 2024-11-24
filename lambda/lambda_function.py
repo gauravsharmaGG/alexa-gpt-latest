@@ -108,7 +108,7 @@ def generate_gpt_response(chat_history, new_question):
     messages.append({"role": "user", "content": new_question})
     
     data = {
-        "model": "gpt-4o-mini",
+        "model": "o1-mini",
         "messages": messages,
         "max_tokens": 300,
         "temperature": 0.5
